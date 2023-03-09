@@ -124,8 +124,10 @@ a,a:visited{
 }
 .form_user input{
     margin-top: .3em;
-    font-size: 1.5em;
-    border-radius: 5px;
+    font-size: 1em;
+    height: 2em;
+    border-width: 1px;
+    border-radius: 10px;
     background-color: transparent;
     border-color: white;
     border-style: solid;
