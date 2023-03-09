@@ -1,0 +1,161 @@
+*{
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+body{
+    color: white;
+    margin: 0px;
+}
+nav{
+    background-color: #E63946;
+    padding-right: 10em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-weight: 700;
+    font-size: .9rem;
+    text-decoration: none;
+    
+}
+hr{
+    width: 100%;
+}
+nav ul{
+    
+    text-align: right;
+}
+nav ul li{
+    text-decoration:none;
+    margin-right: 2em;
+    list-style: none;
+    display: inline-block;
+}
+a,a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.descripciones img{
+    object-position: 50% 40%;
+    max-height: 30vh;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.descripciones{
+    color: #31393C;
+    position: relative;
+    background-color: #A8DADC;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.descripciones p{
+    padding: 2em;
+    text-align: justify;
+    font-weight: 600;
+}
+#banner{
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    margin: auto;
+    position: relative;
+    background-color: #30393c;
+}
+
+#banner div{
+    text-align: center;
+    position: absolute;
+    margin-left: 10em;
+    margin-right: 10em;
+    top: 25%;
+}
+
+#banner img{
+    display: block;
+    object-fit: cover;
+    object-position: 50% 45%;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: .2;
+}
+
+#servicios{
+    position: relative;
+    color: #30393c;
+    background-color: #F1FAEE;
+}
+#servicios .contenido{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.contenido i{
+    margin-top: 1em;
+    font-size: 2em;
+}
+.contenido div{
+    margin: 4em 2em 4em 2em;
+    text-align: center;     
+}
+/* #servicios::before{
+    
+    z-index: -1;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../assets/svg/lounge-7162162.svg');
+    background-repeat: no-repeat;
+    background-position:50% 55%;
+    background-size: cover;
+    opacity: .34;
+} */
+
+#registro{
+    background-color: #1D3557;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+.form_user{
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.form_user input{
+    margin-top: .3em;
+    font-size: 1.5em;
+    border-radius: 5px;
+    background-color: transparent;
+    border-color: white;
+    border-style: solid;
+}
+.form_user input{
+    margin-bottom: 1.3em;
+}
+.form_user input[type=submit]{
+    padding: .3em;
+    font-size: 1em;
+    background-color: #F1FAEE;
+}
+
+.form_user label::after{
+    content: ':';
+}
+.form_user label::before{
+    content: '* ';
+    color: rgb(255, 87, 87);
+    font-weight: bold;
+}
+
+footer{
+    padding: 2em;
+    min-height: 100px;
+    background-color: #457B9D;
+}
